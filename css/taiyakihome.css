@@ -2,7 +2,7 @@ body{
   font: 15px/1.5 Courier New, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:#FAED9D;
+  background-color:#ffb84d;
 }
 
 /* Global */
@@ -23,28 +23,28 @@ ul{
   border:0;
   padding-left: 20px;
   padding-right:20px;
-  color:#ffffff;
+  color:#F2773A;
 }
 
 .dark{
   padding:15px;
   background:#35424a;
-  color:#ffffff;
+  color:#F2773A;
   margin-top:10px;
   margin-bottom:10px;
 }
 
 /* Header **/
 header{
-  background:#35424a;
-  color:#ffffff;
+  background:#814D07;
+  color:#F2773A;
   padding-top:30px;
   min-height:70px;
   border-bottom:#EEAD1F 3px solid;
 } 
 
 header a{
-  color:#ffffff;
+  color:#F2773A;
   text-decoration:none;
   text-transform: uppercase;
   font-size:16px;
@@ -84,7 +84,7 @@ header a:hover{
   min-height:600px;
   background:url('../oishi.jpg') no-repeat 0-500px;
   text-align:center;
-  color:#ffffff;
+  color:black;
 }
 
 #showcase h1{
@@ -127,7 +127,7 @@ header a:hover{
 #boxes .box{
   float:left;
   text-align: center;
-  width:30%;
+  width:22%;
   padding:10px;
 }
 
