@@ -2,7 +2,7 @@ body{
   font: 15px/1.5 Courier New, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:#ffb84d;
+  background: linear-gradient(to bottom, #ffcc66 32%, #ff9900 99%);;
 }
 
 /* Global */
@@ -47,7 +47,7 @@ header a{
   color:#F2773A;
   text-decoration:none;
   text-transform: uppercase;
-  font-size:16px;
+  font-size:25px;
 }
 
 header li{
@@ -66,8 +66,8 @@ header #branding h1{
 
 header #branding img{
    text-align: center;
-  width:25%;
-  padding:10px;
+  width:100%;
+
 
 }
 
@@ -107,35 +107,29 @@ header a:hover{
 #showcase img{
    margin-top:100px;
   text-align: center;
-  width:450px;;
+  width:450px;
   padding:10px;
-
 }
-/* Newsletter */
-#newsletter{
-  padding:15px;
-  color:#ffffff;
-  background:#35424a
+/* About */
+#aboutus{
+text-align:center;
+margin-top:200px; 
 }
-
-#newsletter h1{
-  float:left;
+.about h1{
+   font-size:40px;
 }
-
-#newsletter form {
-  float:right;
-  margin-top:15px;
+.about p{
+    font-size:25px;
 }
-
-#newsletter input[type="email"]{
-  padding:4px;
-  height:25px;
-  width:250px;
+.shots img{
+    width:50%;
+    float:left;
+    margin-bottom:200px;
 }
-
 /* Boxes */
 #boxes{
-  margin-top:20px;
+  margin-top:200px;
+  margin-bottom: 200px;
 }
 
 #boxes .box{
@@ -147,6 +141,9 @@ header a:hover{
 
 #boxes .box img{
   width:150px;
+}
+#boxes .box h3{
+  font-size:20px;
 }
 
 /* Sidebar */
