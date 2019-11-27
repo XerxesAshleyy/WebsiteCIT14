@@ -93,12 +93,18 @@ header a:hover{
 	width:450px;
 	padding:10px;
 }
+#showcase img:hover{
+	border-radius: 5% 5%;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transform: scale(1.2);
+}
 
 /* About */
 #aboutus{
 	text-align:center;
 	margin-top:200px; 
-	margin-bottom:200px;
+	margin-bottom:100px;
 }
 .about h1{
 	font-size:40px;
@@ -115,6 +121,7 @@ header a:hover{
 #boxes{
 	margin-top:200px;
 	margin-bottom: 200px;
+	text-align: center;
 }
 
 #boxes .box{
@@ -127,20 +134,31 @@ header a:hover{
 #boxes .box img{
 	width:150px;
 }
+#boxes .box img:hover{
+	border-radius: 5% 5%;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transform: scale(1.5);
+}
 #boxes .box h3{
 	font-size:20px;
 }
 
+
+
 /*Contacts*/
 #conta{
 	text-align:center;
-
 }
-
-
-
-
-
+#conta p{
+	font-size:20px;
+}
+#conta img:hover{
+	border-radius: 5% 5%;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transform: scale(1.5);
+}
 
 /*Footer*/
 footer{
@@ -157,6 +175,7 @@ footer{
 	header nav,
 	header nav li,
 	#boxes .box,
+	#boxes .digital,
 	article#main-col,
 	aside#sidebar{
     float:none;
@@ -170,15 +189,5 @@ footer{
 
 	#showcase h1{
 		margin-top:40px;
-	}
-
-	#newsletter button, .quote button{
-		display:block;
-		width:100%;
-	}
-
-	#newsletter form input[type="email"], .quote input, .quote textarea{
-		width:100%;
-		margin-bottom:5px;
 	}
 }
