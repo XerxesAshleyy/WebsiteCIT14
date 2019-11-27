@@ -144,7 +144,12 @@ header a:hover{
 	font-size:20px;
 }
 
-
+#boxes .box2 img{
+      width:70%;
+    float:left;
+    margin-bottom:200px;
+    display:block;
+}
 
 /*Contacts*/
 #conta{
@@ -159,6 +164,8 @@ header a:hover{
 	-webkit-transition: 0.5s;
 	transform: scale(1.5);
 }
+
+
 
 /*Footer*/
 footer{
