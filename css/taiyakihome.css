@@ -145,7 +145,7 @@ header a:hover{
 }
 
 #boxes .box2 img{
-      width:70%;
+    width:100%;
     float:left;
     margin-bottom:200px;
     display:block;
@@ -196,5 +196,11 @@ footer{
 
 	#showcase h1{
 		margin-top:40px;
+	}
+	#showcase img{
+		margin-left:-50px;
+	}
+	#boxes img{
+		margin-left:-10px;
 	}
 }
